@@ -30,7 +30,7 @@ input {
     width:300px;
 }
 h1 {
-    text-align: center;
+    text-align: right;
 }
 
 h2 {
@@ -56,7 +56,13 @@ iframe {
 div.article {
     padding-left: 60px;
 
+
 }
+div.artikel{
+    height: 40%;
+    width: 40%;
+}
+@vanaf hier van internet voor die comment box
 #comment_form input, #comment_form textarea {
     border: 4px solid rgba(0,0,0,0.1);
     padding: 8px 10px;
