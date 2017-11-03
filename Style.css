@@ -41,14 +41,15 @@ h3 {
     text-align: center;
 }
 
+#renfoto{
+    width:200px;
+    height:200px;
 
-article {
-    display:inline-block;
-    width:33%;
-    padding-left: 10px;
-    vertical-align:top;
 }
 
+article {
+ margin-top:15px
+}
 iframe {
     float: left;
 
@@ -62,7 +63,10 @@ div.artikel{
     height: 40%;
     width: 40%;
 }
-@vanaf hier van internet voor die comment box
+
+
+
+/*vanaf hier van internet voor die comment box*/
 #comment_form input, #comment_form textarea {
     border: 4px solid rgba(0,0,0,0.1);
     padding: 8px 10px;
@@ -110,4 +114,37 @@ div.artikel{
 
 #comment_form div {
     margin-bottom: 5px;
+}
+
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
