@@ -124,6 +124,10 @@ body {
 
 }
 
+#sporttekst{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 ul {
     list-style-type: none;
@@ -154,4 +158,9 @@ li a:hover {
 }
 img.ShowcaseImage {
     height: 111px;
+}
+
+div.linkys{
+    display: inline-block;
+    text-align: left;
 }
