@@ -23,7 +23,14 @@ article.foto{
     width: 50%;
     float: right;
     margin-bottom: 20px;
+}
 
+section.pic{
+    display: inline-block;
+    width: auto;
+    float: left;
+    padding-right: 37px;
+    padding-top: 30px;
 }
 
 div#wrapper{
@@ -42,19 +49,15 @@ header{
 article{
     display:block;
     width: 50%;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-top: 20px;
     vertical-align: top;
     float: left;
 }
 
 b{
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     vertical-align: top;
-    padding-right: 67%;
+    margin-right: 100%;
 
 }
-
-
-
-
